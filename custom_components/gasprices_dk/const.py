@@ -49,7 +49,7 @@ GAS_COMPANIES = {
 		'products': {GAS_95: 'Benzin 95', DIESEL: 'Diesel'}
 	}
 }
-UPDATE_INTERVAL = 60
+UPDATE_INTERVAL = 720
 
 CREDITS = [
 	{ 'Created by': 'J-Lindvig (https://github.com/J-Lindvig)' },
