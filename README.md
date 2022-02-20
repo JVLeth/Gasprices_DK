@@ -1,2 +1,7 @@
-# Gasprices_DK
-Gasprices in Denmark
+# Gasprices DK
+
+## Opsætning
+
+```yaml
+gasprices_dk:
+```
