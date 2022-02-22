@@ -11,6 +11,8 @@ from .const import (
 	DIESEL,
 	GAS_95,
 	GAS_COMPANIES,
+	ICON_BASE_URL,
+	ICON_FILE_EXT,
 )
 
 class gasprices_dk_api:
@@ -25,3 +27,4 @@ class gasprices_dk_api:
 	def getGasPrices(self):
 		for company in GAS_COMPANIES.keys():
 			self._gasPrices[company] = getattr(self._parser, company)(GAS_COMPANIES[company])
+			self._gasPrices[company]['company_logo'] = ICON_BASE_URL + company + ICON_FILE_EXT

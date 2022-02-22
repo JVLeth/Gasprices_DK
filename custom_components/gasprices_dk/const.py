@@ -49,6 +49,8 @@ GAS_COMPANIES = {
 		'products': {GAS_95: 'Benzin 95', DIESEL: 'Diesel'}
 	}
 }
+ICON_BASE_URL = 'https://github.com/J-Lindvig/Gasprices_DK/raw/main/icons/'
+ICON_FILE_EXT = '.png'
 UPDATE_INTERVAL = 720
 
 CREDITS = [

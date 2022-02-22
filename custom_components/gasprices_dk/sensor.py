@@ -68,6 +68,7 @@ class GasPriceSensor(SensorEntity):
 		self._gasType = gasType
 		self._companyName = gasCompany['name']
 		self._productName = gasCompany[gasType]['name']
+		self._company_logo = gasCompany['company_logo']
 		self._lastUpdate = gasCompany['lastUpdate']
 
 		self._name = gasCompany['name'] + ' ' + gasType
@@ -88,6 +89,7 @@ class GasPriceSensor(SensorEntity):
 		attr = {}
 		
 		attr['company_name'] = self._companyName
+		attr['company_logo'] = self._company_logo
 		attr['product_name'] = self._productName
 		attr['last_update'] = self._lastUpdate
 
