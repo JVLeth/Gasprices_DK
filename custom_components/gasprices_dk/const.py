@@ -23,7 +23,7 @@ GAS_COMPANIES = {
 	},
 	'ok': {
 		'name': 'OK',
-		'url': 'https://www.ok.dk/privat/produkter/priser',
+		'url': 'https://www.ok.dk/offentlig/produkter/braendstof/priser',
 		'products': {GAS_95: 'Blyfri 95', DIESEL: 'Diesel'},
 	},
 	'q8': {
